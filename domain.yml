@@ -1,0 +1,22 @@
+version: "3.1"
+
+intents:
+  - ask_addition
+  - ask_subtraction
+  - ask_multiplication
+  - ask_division
+  - ask_word_problem
+
+responses:
+  utter_math_response:
+    - text: "Here is the solution: $${solution}$$"
+  utter_goodbye:
+    - text: "Goodbye! Have a great day"  
+  utter_iamabot:
+    - text: "I am a Math Exam Prep Assistant chatbot, here to help you with your NCERT math questions! 🤖"
+
+actions:
+  - action_solve_math
+
+
+
