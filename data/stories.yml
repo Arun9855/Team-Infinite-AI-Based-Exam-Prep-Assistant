@@ -1,0 +1,26 @@
+version: "3.1"
+stories:
+- story: solve addition
+  steps:
+  - intent: ask_addition
+  - action: action_solve_math
+
+- story: solve subtraction
+  steps:
+  - intent: ask_subtraction
+  - action: action_solve_math
+
+- story: solve multiplication
+  steps:
+  - intent: ask_multiplication
+  - action: action_solve_math
+
+- story: solve division
+  steps:
+  - intent: ask_division
+  - action: action_solve_math
+
+- story: solve word problem
+  steps:
+  - intent: ask_word_problem
+  - action: action_solve_math

@@ -1,0 +1,31 @@
+version: "3.1"
+nlu:
+- intent: ask_addition
+  examples: |
+    - What is 5 + 3?
+    - Add 12 and 8
+    - Sum of 15 and 6?
+
+- intent: ask_subtraction
+  examples: |
+    - What is 10 - 4?
+    - Subtract 7 from 14
+    - Difference between 20 and 5?
+
+- intent: ask_multiplication
+  examples: |
+    - Multiply 4 by 3
+    - What is 7 times 2?
+    - Product of 9 and 5?
+
+- intent: ask_division
+  examples: |
+    - Divide 20 by 5
+    - What is 15 ÷ 3?
+    - How much is 16 divided by 4?
+
+- intent: ask_word_problem
+  examples: |
+    - If Ramesh has 5 apples and gives 2 to his friend, how many are left?
+    - A box has 4 rows of 6 chocolates. How many chocolates are there?
+    - If one banana costs ₹3, how much do 5 bananas cost?
